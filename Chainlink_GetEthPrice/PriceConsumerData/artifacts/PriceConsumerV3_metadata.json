@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.6.7+commit.b8d736ae"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getLatestPrice",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {
+				"constructor": "Network: Kovan Aggregator: ETH/USD Address: 0x9326BFA02ADD2366b30bacB125260Af641031331",
+				"getLatestPrice()": {
+					"notice": "Returns the latest price"
+				}
+			}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"gist-a90779ce7087be3379a2b5cee0ea2858/PriceConsumerV3.sol": "PriceConsumerV3"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"@chainlink/contracts/src/v0.6/interfaces/AggregatorV3Interface.sol": {
+			"keccak256": "0x8895ce4f46aba18ee3cdb7b1d180f79edb868225781f60993c7b2181e2ee2583",
+			"urls": [
+				"bzz-raw://4472c14df5f311d7a2eff1dfa55d9b4d39a21b0a0ff905fcbbf6913551086a4c",
+				"dweb:/ipfs/QmQvwFk1SBaLMm4pmZCz7UEhfaXM8kUWu5VG71VFFuMxjF"
+			]
+		},
+		"gist-a90779ce7087be3379a2b5cee0ea2858/PriceConsumerV3.sol": {
+			"keccak256": "0xa12fab6a85b25d0b71e3e593c4c561e50083da79cf240f232d9c1c5e8fe3188c",
+			"urls": [
+				"bzz-raw://3bfef699f5adf64973d94c46d3a07cab37b781e8cea4fa65801e2aec090d5554",
+				"dweb:/ipfs/QmNtQmsSUjZVDxVqgsm3zsMfm434eaDVtfVT2foj2VJo6m"
+			]
+		}
+	},
+	"version": 1
+}
